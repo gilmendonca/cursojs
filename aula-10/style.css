@@ -1,0 +1,22 @@
+/* div#area {
+    font: normal 20px Arial;
+    background: rgb(1, 165, 1);
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+} */
+
+body {
+    font: normal 18pt Arial;
+}
+
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+
+div#res {
+    margin-top: 20px;
+}

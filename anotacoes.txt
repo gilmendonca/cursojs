@@ -1,0 +1,105 @@
+variaves ou identificadores
+
+pode começar com letra, $ ou _
+nao se pode começar com numero
+e possivel usar letra e numeroe possivel usar simbolo
+---------
+typeof informa o tipo de variavel seja ela do tipo number. ou tambem pode ser um osbjeto ou string
+
+---
+string para numero
+Number.parsenInt(n) -> converte para inteiro
+Number.parsenFloat(n) -> converte para real
+Number(n) -> forma simplificada
+
+
+---
+string(n) converte numero para strinf
+n.toString() converte ao contarrio
+
+---
+var s = 'javaScript'
+'eu estou aprendendo s' // nao fas interpolação
+'eu estou aprendendo' + s // concatenação
+`eu estou aprendendo ${s} ` /// usa template string
+
+---
+var s = 'javaScript'
+s.length //quantos caracteres a string template
+s.toUpperCase() //tudo para     culas
+s.toLowerCase() // tudo para minuscula
+
+-----------------------------------------------------------------------------------------------------------------------
+adicionando casas decimais 
+exemplo = toFixed(2) -> valor entre parenteses adicona u numero de casas decimas a esquerda
+exemplo = toFixed(2).replace('.', ',') -> troca ponto por virgula
+
+-exemplo completo
+n1
+521212.5
+> n1.toFixed(2)
+'521212.50'
+> n1.toFixed(2).replace('.', ',')
+'521212,50'
+>
+var n1
+-exemplo converção de moeda
+n1.toLocaleString('pt-BR', {style: 'currency',  currency: 'BRL'})
+'R$ 521.212,50'
+> n1.toLocaleString('pt-BR', {style: 'currency',  currency: 'USD'})
+'US$ 521.212,50'
+
+-----------------------------------------------------------------------------------------------------------------------
+5 % 2 = 1 -> resto da divisao
+5 ** 2 = 25 -> 5 ao quadrado
+
+---
+5==5 ->true
+5=='5' true -> ignora de o numero for string
+5 === '5' -> operador de igualdade restrita mesmo valor e mesmo tipo
+
+---
+! -> negação -> true ou false
+&& -> conjução ->  true true ou false false -> true false - false false -> so satisfaz se as duas forem verdadeira
+|| -> disjunção -> true true ou false false -> true false - false false -> basta um ser verdaeiro
+
+exemplo operaçao
+> var idade1 = 15
+
+> var idade2 = 17
+
+> idade1 >= 15 && idade2 <=17
+true
+
+estado >= 15 && idade <= 17 -> o estado e sao paulo ou rio
+salario > 1500 && sexo != 'M' -> o salario é 1500 e não homem
+
+ordem de precedencia 
+() ** /
+>< >=
+!
+&&
+||
+
+---
+operador ternario
+? 
+:1
+
+exemplo
+var media = 5.4
+> media > 7? 'aprovado':'reprovado'
+'reprovado'
+> media +=3
+8.4
+> media > 7? 'aprovado':'reprovado'
+'aprovado'
+> var x = 8
+undefined
+> var res = x % 2 == 0 ? 5: 9
+undefined
+> x
+8
+> res
+5
+>
