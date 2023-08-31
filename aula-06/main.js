@@ -1,3 +1,27 @@
+// PASSA DADOS COMO STRING 
+// var n1 = prompt('digite numero')  
+// var n2 = prompt('digite numero') 
+// var s = n1+n2; 
+// alert('a soma dos valores é ' + s)
+
+// FORÇA A CONVERÇÃO EM INTEIRO, REAL (parseInt OU parseFloat)
+// var n1 = Number.parseInt(prompt ('digite um numero'))
+// var n2 = Number.parseInt(prompt('digite um numero'))
+// var s = n1+n2 
+// alert ('soma dos valores ' + s)
+
+var n1 = Number(prompt ('digite um numero'))
+var n2 = Number(prompt('digite um numero'))
+var s = n1+n2 
+//alert ('soma dos valores ' + s.toString())// convertendo em string
+alert (`soma dos valores  ${n1} e ${n2}  é  ${s}`)// convertendo em string 
+alert ('soma dos valores ' + String(s))
+
+
+
+
+
+
 // var nun1 = Number(prompt('digite um numero'))
 // var nun2 = Number(prompt('digite um numero'))
 
@@ -15,20 +39,20 @@
 // document.write(` seu nome em Maiusculo e ${nome.toUpperCase()} `) //escreve em minusculo
 // document.write(` seu nome em Minusculo e ${nome.toLowerCase()} `) //escreve em minusculo
 
-alert('ola')
+// alert('ola')
 
-function converterValor() {
-    let valor = parseInt(document.querySelector("#converter-valor").value);
+// function converterValor() {
+//     let valor = parseInt(document.querySelector("#converter-valor").value);
 
-    console.log('o valor é: ' + valor.toLocaleString('pt-BR', {
-        style: 'currency',
-        currency: 'BRL'
-    }))
-    alert('o valor é: ' + valor.toLocaleString('pt-BR', {
-        style: 'currency',
-        currency: 'BRL'
-    }))
-}
+//     console.log('o valor é: ' + valor.toLocaleString('pt-BR', {
+//         style: 'currency',
+//         currency: 'BRL'
+//     }))
+//     alert('o valor é: ' + valor.toLocaleString('pt-BR', {
+//         style: 'currency',
+//         currency: 'BRL'
+//     }))
+// }
 
 
 //     //var valor1 = document.querySelector("#converter-valor").value;

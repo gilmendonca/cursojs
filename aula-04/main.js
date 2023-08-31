@@ -4,4 +4,4 @@
 
 var lista = [{ nome: 'uva' }, { nome: 'goiaba' }, { nome: 'manga' }]
 console.log(lista)
-console.log(lista[2].nome)
+console.log(lista[1].nome)
