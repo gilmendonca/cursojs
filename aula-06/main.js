@@ -14,8 +14,8 @@ var n1 = Number(prompt ('digite um numero'))
 var n2 = Number(prompt('digite um numero'))
 var s = n1+n2 
 //alert ('soma dos valores ' + s.toString())// convertendo em string
-alert (`soma dos valores  ${n1} e ${n2}  é  ${s}`)// convertendo em string 
-alert ('soma dos valores ' + String(s))
+alert (`soma dos valores  ${n1} e ${n2}  é  ${s}`) // exibindo valores 
+alert ('soma dos valores ' + String(s)) // convertendo em string
 
 
 

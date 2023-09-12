@@ -1,3 +1,86 @@
+OPERADORES ARITIMETICOS 
+5+2 = 7
+5-2 = 3
+5*2 = 10
+5/2 = 2.5
+5%2 = 1 --> RESTO DA DIVISÃO
+5**2 = 25 --> 2 AO QUADRADO
+
+--------
+ORDEM DE PRECEDIENCIA 
+()
+** 
+* / %
++ -
+
+---------------
+5 % 2 = 1 -> resto da divisao
+5 ** 2 = 25 -> 5 ao quadrado
+
+---
+5==5 ->true
+5=='5' true -> ignora se o numero for string
+5 === '5' false -> operador de igualdade restrita mesmo valor e mesmo tipo
+
+---
+>< menor/maior
+<= mano ou igual
+>= maior ou igual
+
+! -> negação -> (NÃO) true(verdadeiro) ou false(falso)
+&& -> conjução -> (E)  true true ou false false -> true false - false false -> so satisfaz se as duas forem verdadeira
+|| -> disjunção -> (OU) true true ou false false -> true false - false false -> basta um ser verdaeiro
+
+
+operador ternario
+? =>se
+: => se não
+
+-------teste
+exemplo
+var media = 5.4
+> media > 7? 'aprovado':'reprovado'
+'reprovado'
+> media +=3
+8.4
+> media > 7? 'aprovado':'reprovado'
+'aprovado'
+> var x = 8
+undefined
+> var res = x % 2 == 0 ? 5: 9
+undefined
+> x
+8
+> res
+5
+
+----
+var idade = 98
+
+> idade
+98
+> var r = idade >= 18 ? 'MAIOR DE IDADE ' : 'MENOR DE IDADE '
+> r
+'MAIOR DE IDADE '
+---------
+
+exemplo operaçao
+> var idade1 = 15
+
+> var idade2 = 17
+
+> idade1 >= 15 && idade2 <=17
+true
+
+estado >= 15 && idade <= 17 -> o estado e sao paulo ou rio
+salario > 1500 && sexo != 'M' -> o salario é 1500 e não homem
+
+-------------------------------------
+
+---
+
+
+
 variaves ou identificadores
 
 pode começar com letra, $ ou _
@@ -50,56 +133,8 @@ n1.toLocaleString('pt-BR', {style: 'currency',  currency: 'BRL'})
 'US$ 521.212,50'
 
 -----------------------------------------------------------------------------------------------------------------------
-5 % 2 = 1 -> resto da divisao
-5 ** 2 = 25 -> 5 ao quadrado
 
----
-5==5 ->true
-5=='5' true -> ignora de o numero for string
-5 === '5' -> operador de igualdade restrita mesmo valor e mesmo tipo
 
----
-! -> negação -> true ou false
-&& -> conjução ->  true true ou false false -> true false - false false -> so satisfaz se as duas forem verdadeira
-|| -> disjunção -> true true ou false false -> true false - false false -> basta um ser verdaeiro
 
-exemplo operaçao
-> var idade1 = 15
 
-> var idade2 = 17
 
-> idade1 >= 15 && idade2 <=17
-true
-
-estado >= 15 && idade <= 17 -> o estado e sao paulo ou rio
-salario > 1500 && sexo != 'M' -> o salario é 1500 e não homem
-
-ordem de precedencia 
-() ** /
->< >=
-!
-&&
-||
-
----
-operador ternario
-? 
-:1
-
-exemplo
-var media = 5.4
-> media > 7? 'aprovado':'reprovado'
-'reprovado'
-> media +=3
-8.4
-> media > 7? 'aprovado':'reprovado'
-'aprovado'
-> var x = 8
-undefined
-> var res = x % 2 == 0 ? 5: 9
-undefined
-> x
-8
-> res
-5
->
