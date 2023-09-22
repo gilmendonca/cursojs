@@ -1,0 +1,9 @@
+ESTUDANDO DOM
+
+Selecionar Elementos do site por:
+
+-Marca
+-Id
+-Nome
+-Classe
+-Seletor

@@ -23,9 +23,21 @@ ORDEM DE PRECEDIENCIA
 5 === '5' false -> operador de igualdade restrita mesmo valor e mesmo tipo
 
 ---
+operadores relacionais
+obs= não tem ordem de precedencia 
+
 >< menor/maior
 <= mano ou igual
 >= maior ou igual
+== ugual 
+!= igual diferente
+!== estritamente não igual
+
+operador de identidade
+=== igula de mesmo valor e mesmo tipo
+
+
+---------
 
 ! -> negação -> (NÃO) true(verdadeiro) ou false(falso)
 && -> conjução -> (E)  true true ou false false -> true false - false false -> so satisfaz se as duas forem verdadeira

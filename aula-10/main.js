@@ -1,25 +1,25 @@
-/*var a = document.getElementById('area')
-a.addEventListener('click', clicar)
-a.addEventListener('mouseenter', entar)
-a.addEventListener('mouseout', sair)
+//alert('Ola')
+//var a = document.getElementById('area')// funcão teste 
 
 
-function clicar() {
-    var a = document.getElementById('area')
-    a.innerText = 'Clicou'
-    a.style.background = 'red'
-}
-
-function entar() {
-    var a = document.getElementById('area')
+// function clicar(){
+//     var a = document.getElementById('area')
+//     a.addEventListener('click', clicar)// não deu certo 
+//     a.innerText = 'Clicou!'
+//     a.style.background = 'red'
+// }
 
 
-    a.innerText = 'entrou'
-}
+// function entrar(){
+//     var b = document.getElementById('area')
+//     b.addEventListener('mouseover', entrar)// não deu certo 
+//     b.innerText = 'Entrou!'
+    
+// }
 
-function sair() {
-    var a = document.getElementById('area')
-
-    a.innerText = 'saiu'
-    a.style.background = 'green'
-}*/
+// function sair(){
+//     var c = document.getElementById('area')
+//     c.addEventListener('mouseout', sair)// não deu certo 
+//     c.innerText = 'Saiu!'
+//     c.style.background = 'green'
+// }

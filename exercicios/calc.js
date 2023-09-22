@@ -6,8 +6,6 @@ function calcular() {
     var resposta = document.getElementById('resposta');
     var calculo = ''
 
-
-
     for (var count = 1; count <= 10; count++)
         calculo += num + " x " + count + " = " + num * count + "<br>";
     resposta.innerHTML = calculo;
